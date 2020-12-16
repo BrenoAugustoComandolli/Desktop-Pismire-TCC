@@ -1,0 +1,1007 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E74E77A9-02F2-45E1-A1B5-BF673DF18E60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pismire_TCC</RootNamespace>
+    <AssemblyName>Pismire_TCC</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.Core, Version=2.0.1.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.Core.2.0.1\lib\net40\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=2.0.1.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WinForms.2.0.1\lib\net40\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsPresentation, Version=2.0.1.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WinPresentation.2.0.1\lib\net40\GMap.NET.WindowsPresentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authorization, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Authorization.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authorization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Connections.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Connections.Abstractions.3.1.9\lib\netstandard2.0\Microsoft.AspNetCore.Connections.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.3.1.9\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Common, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Common.3.1.9\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Core, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Core.1.1.0\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Protocols.Json, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.SignalR.Protocols.Json.1.1.0\lib\netstandard2.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.1\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.9\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.3.1.9\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.3.1.9\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.7.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.113.1\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.113.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.113.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.4.7.3\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.7.1\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.4.7.2\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Channels.4.5.0\lib\netstandard2.0\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EditarEvento.cs" />
+    <Compile Include="Mensagem.cs" />
+    <Compile Include="PegarIDEmpresa.cs" />
+    <Compile Include="PegarIDVaga.cs" />
+    <Compile Include="Resources\avaliacao.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\beneficios.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\candidatos.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\curriculo.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\evento.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\experiencia_internacional_evento.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\experiencia_internacional_trabalhador.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\experiencia_profissional_evento.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\experiencia_profissional_trabalhador.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\idioma_evento.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\idioma_trabalhador.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\interessados_empresa.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\interessados_trabalhador.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\mensagem.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\notificacao.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\perfil_empresa.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\preferencia.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\qualificacao_evento.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\qualificacao_trabalhador.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\recomendados_empresa.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\recomendados_trabalhador.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\trabalho_voluntario_trabalhador.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\usuario.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\usuario_empresa.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\usuario_trabalhador.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TelaMensagemAberta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaMensagemAberta.Designer.cs">
+      <DependentUpon>TelaMensagemAberta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaMensagemEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaMensagemEmpresa.Designer.cs">
+      <DependentUpon>TelaMensagemEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaMensagemTrabalhador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaMensagemTrabalhador.Designer.cs">
+      <DependentUpon>TelaMensagemTrabalhador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaConfiguracaoLocalizacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaConfiguracaoLocalizacao.Designer.cs">
+      <DependentUpon>TelaConfiguracaoLocalizacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaEditarCurriculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaEditarCurriculo.Designer.cs">
+      <DependentUpon>TelaEditarCurriculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaEditarPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaEditarPerfil.Designer.cs">
+      <DependentUpon>TelaEditarPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maximizacao.cs" />
+    <Compile Include="TelaInscricoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaInscricoes.Designer.cs">
+      <DependentUpon>TelaInscricoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaInteresses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaInteresses.Designer.cs">
+      <DependentUpon>TelaInteresses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaMensagemAviso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaMensagemAviso.Designer.cs">
+      <DependentUpon>TelaMensagemAviso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PegarID.cs" />
+    <Compile Include="PegarIDEvento.cs" />
+    <Compile Include="TelaMensagemAvisoAlternativa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaMensagemAvisoAlternativa.Designer.cs">
+      <DependentUpon>TelaMensagemAvisoAlternativa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizacaoPerfilEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizacaoPerfilEmpresa.Designer.cs">
+      <DependentUpon>TelaVisualizacaoPerfilEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisa.cs" />
+    <Compile Include="Preferencias.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RoundPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TelaAvaliacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAvaliacao.Designer.cs">
+      <DependentUpon>TelaAvaliacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaCandidatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaCandidatos.Designer.cs">
+      <DependentUpon>TelaCandidatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaConfiguracao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaConfiguracao.Designer.cs">
+      <DependentUpon>TelaConfiguracao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaConfiguracaoNotificacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaConfiguracaoNotificacao.Designer.cs">
+      <DependentUpon>TelaConfiguracaoNotificacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaGerenciarNotificacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaGerenciarNotificacoes.Designer.cs">
+      <DependentUpon>TelaGerenciarNotificacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaEvento.Designer.cs">
+      <DependentUpon>TelaEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaEventosCriados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaEventosCriados.Designer.cs">
+      <DependentUpon>TelaEventosCriados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPrincipalTrabalhador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPrincipalTrabalhador.Designer.cs">
+      <DependentUpon>TelaPrincipalTrabalhador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaRecomendacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaRecomendacoes.Designer.cs">
+      <DependentUpon>TelaRecomendacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizarExperienciaProfissionalTrabalhador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizarExperienciaProfissionalTrabalhador.Designer.cs">
+      <DependentUpon>TelaVisualizarExperienciaProfissionalTrabalhador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizarQualificacaoTrabalhador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizarQualificacaoTrabalhador.Designer.cs">
+      <DependentUpon>TelaVisualizarQualificacaoTrabalhador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizacaoVagas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizacaoVagas.Designer.cs">
+      <DependentUpon>TelaVisualizacaoVagas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizarExperienciaInternacionalTrabalhador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizarExperienciaInternacionalTrabalhador.Designer.cs">
+      <DependentUpon>TelaVisualizarExperienciaInternacionalTrabalhador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizarExperienciaProfissionalEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizarExperienciaProfissionalEvento.Designer.cs">
+      <DependentUpon>TelaVisualizarExperienciaProfissionalEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizarExperienciaInternacionalEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizarExperienciaInternacionalEvento.Designer.cs">
+      <DependentUpon>TelaVisualizarExperienciaInternacionalEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizarIdiomaEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizarIdiomaEvento.Designer.cs">
+      <DependentUpon>TelaVisualizarIdiomaEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizarIdiomaTrabalhador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizarIdiomaTrabalhador.Designer.cs">
+      <DependentUpon>TelaVisualizarIdiomaTrabalhador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizarQualificacaoEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizarQualificacaoEvento.Designer.cs">
+      <DependentUpon>TelaVisualizarQualificacaoEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaInteressadosEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaInteressadosEmpresa.Designer.cs">
+      <DependentUpon>TelaInteressadosEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaLogin.Designer.cs">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaNotificacaoAberta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaNotificacaoAberta.Designer.cs">
+      <DependentUpon>TelaNotificacaoAberta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaNotificacaoADM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaNotificacaoADM.Designer.cs">
+      <DependentUpon>TelaNotificacaoADM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaNotificacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaNotificacao.Designer.cs">
+      <DependentUpon>TelaNotificacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPoliticaPrivacidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPoliticaPrivacidade.Designer.cs">
+      <DependentUpon>TelaPoliticaPrivacidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaPrincipalEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPrincipalEmpresa.Designer.cs">
+      <DependentUpon>TelaPrincipalEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TelaConfiguracaoPrivacidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaConfiguracaoPrivacidade.Designer.cs">
+      <DependentUpon>TelaConfiguracaoPrivacidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaSeguranca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaSeguranca.Designer.cs">
+      <DependentUpon>TelaSeguranca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaSobre.Designer.cs">
+      <DependentUpon>TelaSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaTermosLicenca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaTermosLicenca.Designer.cs">
+      <DependentUpon>TelaTermosLicenca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaTermosUso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaTermosUso.Designer.cs">
+      <DependentUpon>TelaTermosUso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizacaoCurriculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizacaoCurriculo.Designer.cs">
+      <DependentUpon>TelaVisualizacaoCurriculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaVisualizarTrabalhoVoluntarioTrabalhador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaVisualizarTrabalhoVoluntarioTrabalhador.Designer.cs">
+      <DependentUpon>TelaVisualizarTrabalhoVoluntarioTrabalhador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TesteTutorial.cs" />
+    <Compile Include="UsuarioDados.cs" />
+    <Compile Include="VoltarTelaInteressado.cs" />
+    <Compile Include="VoltarTelaRecomendacao.cs" />
+    <EmbeddedResource Include="TelaMensagemAberta.resx">
+      <DependentUpon>TelaMensagemAberta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMensagemEmpresa.resx">
+      <DependentUpon>TelaMensagemEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMensagemTrabalhador.resx">
+      <DependentUpon>TelaMensagemTrabalhador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaConfiguracaoLocalizacao.resx">
+      <DependentUpon>TelaConfiguracaoLocalizacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaEditarCurriculo.resx">
+      <DependentUpon>TelaEditarCurriculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaEditarPerfil.resx">
+      <DependentUpon>TelaEditarPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInscricoes.resx">
+      <DependentUpon>TelaInscricoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInteresses.resx">
+      <DependentUpon>TelaInteresses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMensagemAviso.resx">
+      <DependentUpon>TelaMensagemAviso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMensagemAvisoAlternativa.resx">
+      <DependentUpon>TelaMensagemAvisoAlternativa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizacaoPerfilEmpresa.resx">
+      <DependentUpon>TelaVisualizacaoPerfilEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAvaliacao.resx">
+      <DependentUpon>TelaAvaliacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaCandidatos.resx">
+      <DependentUpon>TelaCandidatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaConfiguracao.resx">
+      <DependentUpon>TelaConfiguracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaConfiguracaoNotificacao.resx">
+      <DependentUpon>TelaConfiguracaoNotificacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaGerenciarNotificacoes.resx">
+      <DependentUpon>TelaGerenciarNotificacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaEvento.resx">
+      <DependentUpon>TelaEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaEventosCriados.resx">
+      <DependentUpon>TelaEventosCriados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPrincipalTrabalhador.resx">
+      <DependentUpon>TelaPrincipalTrabalhador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaRecomendacoes.resx">
+      <DependentUpon>TelaRecomendacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizarExperienciaProfissionalTrabalhador.resx">
+      <DependentUpon>TelaVisualizarExperienciaProfissionalTrabalhador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizarQualificacaoTrabalhador.resx">
+      <DependentUpon>TelaVisualizarQualificacaoTrabalhador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizacaoVagas.resx">
+      <DependentUpon>TelaVisualizacaoVagas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizarExperienciaInternacionalTrabalhador.resx">
+      <DependentUpon>TelaVisualizarExperienciaInternacionalTrabalhador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizarExperienciaProfissionalEvento.resx">
+      <DependentUpon>TelaVisualizarExperienciaProfissionalEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizarExperienciaInternacionalEvento.resx">
+      <DependentUpon>TelaVisualizarExperienciaInternacionalEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizarIdiomaEvento.resx">
+      <DependentUpon>TelaVisualizarIdiomaEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizarIdiomaTrabalhador.resx">
+      <DependentUpon>TelaVisualizarIdiomaTrabalhador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizarQualificacaoEvento.resx">
+      <DependentUpon>TelaVisualizarQualificacaoEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInteressadosEmpresa.resx">
+      <DependentUpon>TelaInteressadosEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLogin.resx">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaNotificacaoAberta.resx">
+      <DependentUpon>TelaNotificacaoAberta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaNotificacaoADM.resx">
+      <DependentUpon>TelaNotificacaoADM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaNotificacao.resx">
+      <DependentUpon>TelaNotificacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPoliticaPrivacidade.resx">
+      <DependentUpon>TelaPoliticaPrivacidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPrincipalEmpresa.resx">
+      <DependentUpon>TelaPrincipalEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaConfiguracaoPrivacidade.resx">
+      <DependentUpon>TelaConfiguracaoPrivacidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaSeguranca.resx">
+      <DependentUpon>TelaSeguranca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaSobre.resx">
+      <DependentUpon>TelaSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTermosLicenca.resx">
+      <DependentUpon>TelaTermosLicenca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTermosUso.resx">
+      <DependentUpon>TelaTermosUso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizacaoCurriculo.resx">
+      <DependentUpon>TelaVisualizacaoCurriculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaVisualizarTrabalhoVoluntarioTrabalhador.resx">
+      <DependentUpon>TelaVisualizarTrabalhoVoluntarioTrabalhador.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Resources\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Resources\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="Resources\tcc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unknown %2830%29.png" />
+    <None Include="Resources\unknown %2829%29.png" />
+    <None Include="Resources\unknown %2828%29.png" />
+    <None Include="Resources\unknown %2826%29.png" />
+    <None Include="Resources\unknown %2824%29.png" />
+    <None Include="Resources\unknown %2823%29.png" />
+    <None Include="Resources\unknown %2822%29.png" />
+    <None Include="Resources\unknown %2820%29.png" />
+    <None Include="Resources\alerta.png" />
+    <None Include="Resources\mensagem.png" />
+    <None Include="Resources\chave.png" />
+    <None Include="Resources\ligado.png" />
+    <None Include="Resources\de-volta1.png" />
+    <None Include="Resources\desligado.png" />
+    <None Include="Resources\sino.png" />
+    <None Include="Resources\interrogação.png" />
+    <None Include="Resources\escudo.png" />
+    <None Include="Resources\esclamacao.png" />
+    <None Include="Resources\de-volta.png" />
+    <None Include="Resources\cadeado.png" />
+    <None Include="Resources\botao.png" />
+    <None Include="Resources\vagas1.jpg" />
+    <None Include="Resources\telefone.png" />
+    <None Include="Resources\site.png" />
+    <None Include="Resources\empresa.png" />
+    <None Include="Resources\rotas.png" />
+    <None Include="Resources\local.png" />
+    <None Include="Resources\twitter.png" />
+    <None Include="Resources\insta.png" />
+    <None Include="Resources\facebook.png" />
+    <None Include="Resources\gmail.png" />
+    <None Include="Resources\vagas.jpg" />
+    <None Include="Resources\vagas.png" />
+    <None Include="Resources\perfil3.png" />
+    <None Include="Resources\perfil2.png" />
+    <None Include="Resources\perfil1.png" />
+    <None Include="Resources\perfil.png" />
+    <None Include="Resources\voltar.png" />
+    <None Include="Resources\cadastro.png" />
+    <None Include="Resources\usurio1.jpg" />
+    <None Include="Resources\unknown1.png" />
+    <None Include="Resources\unknown %2819%291.png" />
+    <None Include="Resources\unknown %2818%291.png" />
+    <None Include="Resources\unknown %2817%291.png" />
+    <None Include="Resources\unknown %2816%291.png" />
+    <None Include="Resources\unknown %2815%291.png" />
+    <None Include="Resources\unknown %2814%291.png" />
+    <None Include="Resources\unknown %2813%291.png" />
+    <None Include="Resources\unknown %2812%291.png" />
+    <None Include="Resources\unknown %2811%291.png" />
+    <None Include="Resources\unknown %2810%291.png" />
+    <None Include="Resources\unknown %289%291.png" />
+    <None Include="Resources\unknown %288%291.png" />
+    <None Include="Resources\unknown %287%291.png" />
+    <None Include="Resources\unknown %286%291.png" />
+    <None Include="Resources\unknown %285%291.png" />
+    <None Include="Resources\unknown %284%291.png" />
+    <None Include="Resources\unknown %283%291.png" />
+    <None Include="Resources\unknown %282%291.png" />
+    <None Include="Resources\unknown %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao1.png" />
+    <None Include="Resources\eventopg3.png" />
+    <None Include="Resources\Selecionar102.png" />
+    <None Include="Resources\Selecionar101.png" />
+    <None Include="Resources\Selecionar_12.png" />
+    <None Include="Resources\Selecionar_11.png" />
+    <None Include="Resources\Selecionar10.png" />
+    <None Include="Resources\Selecionar_1.png" />
+    <None Include="Resources\Localizacao.png" />
+    <None Include="Resources\infor.png" />
+    <None Include="Resources\estrelaPreta.png" />
+    <None Include="Resources\estrela.png" />
+    <None Include="Resources\baixar.png" />
+    <None Include="Resources\lupa_buscar.png" />
+    <None Include="Resources\4_evento.png" />
+    <None Include="Resources\Verificado_evento.png" />
+    <None Include="Resources\2_evento.png" />
+    <None Include="Resources\3_evento.png" />
+    <None Include="Resources\barra_evento.png" />
+    <None Include="Resources\Evento.png" />
+    <None Include="Resources\perfil_cadastrado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo2.png" />
+    <None Include="Resources\Lixeira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+    <None Include="Resources\imgmais.png" />
+    <None Include="Resources\Lapis.png" />
+    <None Include="Resources\CurriculoPG1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarioRoxo.png" />
+    <None Include="Resources\usuario2.png" />
+    <None Include="Resources\usuario1.png" />
+    <None Include="Resources\usuario.png" />
+    <None Include="Resources\revisar1.png" />
+    <None Include="Resources\revisar.png" />
+    <None Include="Resources\Tutorial4Empresa.png" />
+    <None Include="Resources\Tutorial3Empresa.png" />
+    <None Include="Resources\TutorialPenultimo.png" />
+    <None Include="Resources\TutorialAntePenultimo.png" />
+    <None Include="Resources\Tutorial5.png" />
+    <None Include="Resources\TutorialCompleto.png" />
+    <None Include="Resources\Tutorial4.png" />
+    <None Include="Resources\Animacao.png" />
+    <None Include="Resources\InfoNovo.png" />
+    <None Include="Resources\Atualização.png" />
+    <None Include="Resources\Atualização1.png" />
+    <None Include="Resources\AtualizaçãoRoxo.png" />
+    <None Include="Resources\AtualizaçãoRoxo2.png" />
+    <None Include="Resources\AtualizaçãoBranco.png" />
+    <None Include="Resources\enviarRoxo.png" />
+    <None Include="Resources\enviarRoxo1.png" />
+    <None Include="Resources\enviar.png" />
+    <None Include="Resources\mensagens-de-texto.png" />
+    <None Include="Resources\EditarCurriculoRoxo.png" />
+    <None Include="Resources\FiltroRoxo.png" />
+    <None Include="Resources\ButtonTeste3Roxo.png" />
+    <None Include="Resources\construcao.png" />
+    <None Include="Resources\eventoRoxo.png" />
+    <None Include="Resources\construcao1.png" />
+    <None Include="Resources\eventoRoxo1.png" />
+    <None Include="Resources\candidato.png" />
+    <None Include="Resources\cadidatoRoxo.png" />
+    <Content Include="Resources\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Resources\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\seta-para-cima.png" />
+    <None Include="Resources\seta-esquerda1.png" />
+    <None Include="Resources\Tutorial2.png" />
+    <None Include="Resources\Tutorial1.png" />
+    <None Include="Resources\seta-para-cima-direita1.png" />
+    <None Include="Resources\seta-esquerda.png" />
+    <None Include="Resources\seta-para-cima-direita.png" />
+    <None Include="Resources\interessados.png" />
+    <None Include="Resources\interessado_roxo.png" />
+    <None Include="Resources\requisitos.png" />
+    <None Include="Resources\MensagemAviso.png" />
+    <None Include="Resources\EditarCurriculo.png" />
+    <None Include="Resources\inscricao.png" />
+    <None Include="Resources\inscrito.png" />
+    <None Include="Resources\local2.png" />
+    <None Include="Resources\localRoxo.png" />
+    <None Include="Resources\logoNova2.png" />
+    <None Include="Resources\placeholder.png" />
+    <None Include="Resources\relogio.png" />
+    <None Include="Resources\procurar.png" />
+    <None Include="Resources\unknown3.png" />
+    <None Include="Resources\unknown2.png" />
+    <None Include="Resources\sair_roxo.png" />
+    <None Include="Resources\sino_roxo.png" />
+    <None Include="Resources\recomendacoesTeste.png" />
+    <None Include="Resources\Recomendacoes1.png" />
+    <None Include="Resources\logoNova1.png" />
+    <None Include="Resources\ButtonTeste3.png" />
+    <None Include="Resources\barraPesquisa2.png" />
+    <None Include="Resources\Filtro.png" />
+    <None Include="Resources\Candidatos.png" />
+    <None Include="Resources\marca-paginas.png" />
+    <None Include="Resources\bate-papo.png" />
+    <None Include="Resources\engrenagem.png" />
+    <None Include="Resources\candidatosteste1.png" />
+    <None Include="Resources\marca-paginas_roxo.png" />
+    <None Include="Resources\CalendarioTeste.png" />
+    <None Include="Resources\bate-papo_roxo.png" />
+    <None Include="Resources\engrenagem_roxo.png" />
+    <None Include="Resources\Fumiguinha1.png" />
+    <None Include="Resources\Bolinha21.png" />
+    <None Include="Resources\Carteira.png" />
+    <None Include="Resources\carta-de-recomendacao.png" />
+    <None Include="Resources\Carteira1.png" />
+    <None Include="Resources\empresa1.png" />
+    <None Include="Resources\cronograma.png" />
+    <None Include="Resources\2_evento1.png" />
+    <None Include="Resources\3_evento1.png" />
+    <None Include="Resources\4_evento1.png" />
+    <None Include="Resources\visaoRoxo1.png" />
+    <None Include="Resources\visaoRoxo.png" />
+    <None Include="Resources\verifica.png" />
+    <None Include="Resources\visao2.png" />
+    <None Include="Resources\visao1.png" />
+    <None Include="Resources\visao.png" />
+    <None Include="Resources\twitter1.png" />
+    <None Include="Resources\trabalhos.png" />
+    <None Include="Resources\telefone1.png" />
+    <None Include="Resources\pin %281%29.png" />
+    <None Include="Resources\pessoa.png" />
+    <None Include="Resources\botaoEditar.png" />
+    <None Include="Resources\local-na-rede-internet.png" />
+    <None Include="Resources\emprego.png" />
+    <None Include="Resources\instagram %281%29.png" />
+    <None Include="Resources\gmail1.png" />
+    <None Include="Resources\facebook1.png" />
+    <None Include="Resources\facebook %281%29.png" />
+    <None Include="Resources\emprego1.png" />
+    <None Include="Resources\emprego2.png" />
+    <None Include="Resources\emprego3.png" />
+    <None Include="Resources\evento40.png" />
+    <None Include="Resources\beneficios.png" />
+    <None Include="Resources\lista.png" />
+    <None Include="Resources\cardapio.png" />
+    <None Include="Resources\caixa-de-selecao %281%29.png" />
+    <None Include="Resources\local1.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\fotoPerfil.png" />
+    <None Include="Resources\foto.png" />
+    <None Include="Resources\foto1.png" />
+    <None Include="Resources\foto2.png" />
+    <None Include="Resources\logoNotificacao.png" />
+    <None Include="Resources\pasta.png" />
+    <None Include="Resources\seta-para-baixo.png" />
+    <None Include="Resources\editar %281%29.png" />
+    <None Include="Resources\RestaurarEfeito.png" />
+    <None Include="Resources\curriculo.png" />
+    <None Include="Resources\editar1.png" />
+    <None Include="Resources\editarRoxo.png" />
+    <None Include="Resources\curriculoRoxo.png" />
+    <None Include="Resources\excluirRoxo.png" />
+    <None Include="Resources\gps %281%29.png" />
+    <None Include="Resources\fechar.png" />
+    <None Include="Resources\maximizar.png" />
+    <None Include="Resources\fechar1.png" />
+    <None Include="Resources\minimizar.png" />
+    <None Include="Resources\MinimizarEfeito.png" />
+    <None Include="Resources\MaximizarEfeito.png" />
+    <None Include="Resources\MaximizarEfeito1.png" />
+    <None Include="Resources\FecharEfeito.png" />
+    <None Include="Resources\maximizar2.png" />
+    <None Include="Resources\menu.png" />
+    <None Include="Resources\menu2.png" />
+    <None Include="Resources\menu3.png" />
+    <None Include="Resources\menu4.png" />
+    <None Include="Resources\menu5.png" />
+    <None Include="Resources\menuRoxo11.png" />
+    <None Include="Resources\recomendados.png" />
+    <None Include="Resources\search %282%29.png" />
+    <None Include="Resources\search %281%29.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\chaveBranca.png" />
+    <None Include="Resources\envelope.png" />
+    <None Include="Resources\excluir.png" />
+    <None Include="Resources\logoNova.png" />
+    <None Include="Resources\Curriculo3.png" />
+    <None Include="Resources\barra.png" />
+    <None Include="Resources\barraPesquisa.png" />
+    <None Include="Resources\barraPesquisa1.png" />
+    <None Include="Resources\criarEvento.png" />
+    <None Include="Resources\criarEvento1.png" />
+    <None Include="Resources\criarEvento2.png" />
+    <None Include="Resources\chat.png" />
+    <None Include="Resources\criarEvento3.png" />
+    <None Include="Resources\chat1.png" />
+    <None Include="Resources\chat2.png" />
+    <None Include="Resources\chatRoxo.png" />
+    <None Include="Resources\chatAzul.png" />
+    <None Include="Resources\chatRoxo1.png" />
+    <None Include="Resources\criarEventoRoxo.png" />
+    <None Include="Resources\menuRoxo.png" />
+    <None Include="Resources\menuBranco.png" />
+    <None Include="Resources\menuRoxo1.png" />
+    <None Include="Resources\menuBranco1.png" />
+    <None Include="Resources\menuRoxo2.png" />
+    <None Include="Resources\Aviso.png" />
+    <None Include="Resources\Aviso1.png" />
+    <None Include="Resources\BaixarBranco.png" />
+    <None Include="Resources\alertaNaoPossuiInfo.png" />
+    <None Include="Resources\selecionar3.png" />
+    <None Include="Resources\selecionarDesativado.png" />
+    <None Include="Resources\selecionar2.png" />
+    <None Include="Resources\selecionar1.png" />
+    <None Include="Resources\selecionar.png" />
+    <None Include="Resources\privacidadeRoxo.png" />
+    <None Include="Resources\NotificacaoRoxo.png" />
+    <None Include="Resources\Notificacao2.png" />
+    <None Include="Resources\Notificacao1.png" />
+    <None Include="Resources\Notificacao.png" />
+    <None Include="Resources\VoltarRoxo.png" />
+    <None Include="Resources\estrelaAzul.png" />
+    <None Include="Resources\Estrela2.png" />
+    <None Include="Resources\Estrela21.png" />
+    <None Include="Resources\alertaBranco.png" />
+    <None Include="Resources\cadeado1.png" />
+    <None Include="Resources\cadeado2.png" />
+    <None Include="Resources\doubt.png" />
+    <None Include="Resources\cadeado21.png" />
+    <None Include="Resources\cadeado3.png" />
+    <None Include="Resources\cadeado4.png" />
+    <None Include="Resources\cadeado5.png" />
+    <None Include="Resources\cadeadoRoxo.png" />
+    <None Include="Resources\ajudaRoxo.png" />
+    <Content Include="Resources\estrelaEscura.png" />
+    <None Include="Resources\EstrelaRoxa.png" />
+    <None Include="Resources\EstrelaRoxa1.png" />
+    <None Include="Resources\informacao.png" />
+    <None Include="Resources\informacao2.png" />
+    <None Include="Resources\infoRoxo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets')" />
+</Project>

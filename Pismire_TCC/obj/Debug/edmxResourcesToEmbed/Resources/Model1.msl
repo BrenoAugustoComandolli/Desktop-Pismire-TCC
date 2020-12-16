@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Pismire_TCCModelStoreContainer" CdmEntityContainer="PismireEntities5">
+    <EntitySetMapping Name="avaliacao">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.avaliacao">
+        <MappingFragment StoreEntitySet="avaliacao">
+          <ScalarProperty Name="idAvaliacao" ColumnName="idAvaliacao" />
+          <ScalarProperty Name="destinatarioAvaliacao" ColumnName="destinatarioAvaliacao" />
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="comentario" ColumnName="comentario" />
+          <ScalarProperty Name="FK_curriculo" ColumnName="FK_curriculo" />
+          <ScalarProperty Name="FK_usuario_empresa" ColumnName="FK_usuario_empresa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="beneficios">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.beneficios">
+        <MappingFragment StoreEntitySet="beneficios">
+          <ScalarProperty Name="idBeneficio" ColumnName="idBeneficio" />
+          <ScalarProperty Name="assistenciaSaude" ColumnName="assistenciaSaude" />
+          <ScalarProperty Name="assistenciaOdontologica" ColumnName="assistenciaOdontologica" />
+          <ScalarProperty Name="valeAlimentacao" ColumnName="valeAlimentacao" />
+          <ScalarProperty Name="valeCultura" ColumnName="valeCultura" />
+          <ScalarProperty Name="trabalhoHomeOffice" ColumnName="trabalhoHomeOffice" />
+          <ScalarProperty Name="valeViagem" ColumnName="valeViagem" />
+          <ScalarProperty Name="salasDeConferencias" ColumnName="salasDeConferencias" />
+          <ScalarProperty Name="bolsasDeEstudos" ColumnName="bolsasDeEstudos" />
+          <ScalarProperty Name="FK_evento" ColumnName="FK_evento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="candidatos">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.candidatos">
+        <MappingFragment StoreEntitySet="candidatos">
+          <ScalarProperty Name="idCandidatos" ColumnName="idCandidatos" />
+          <ScalarProperty Name="dataInscricao" ColumnName="dataInscricao" />
+          <ScalarProperty Name="horaInscricao" ColumnName="horaInscricao" />
+          <ScalarProperty Name="FK_evento" ColumnName="FK_evento" />
+          <ScalarProperty Name="FK_usuario_trabalhador" ColumnName="FK_usuario_trabalhador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="curriculo">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.curriculo">
+        <MappingFragment StoreEntitySet="curriculo">
+          <ScalarProperty Name="idCurriculo" ColumnName="idCurriculo" />
+          <ScalarProperty Name="generoTrabalhador" ColumnName="generoTrabalhador" />
+          <ScalarProperty Name="celularTrabalhador" ColumnName="celularTrabalhador" />
+          <ScalarProperty Name="estadoCivil" ColumnName="estadoCivil" />
+          <ScalarProperty Name="nacionalidade" ColumnName="nacionalidade" />
+          <ScalarProperty Name="deficienciaFisica" ColumnName="deficienciaFisica" />
+          <ScalarProperty Name="estadoTrabalhador" ColumnName="estadoTrabalhador" />
+          <ScalarProperty Name="cidadeTrabalhador" ColumnName="cidadeTrabalhador" />
+          <ScalarProperty Name="bairroTrabalhador" ColumnName="bairroTrabalhador" />
+          <ScalarProperty Name="ruaTrabalhador" ColumnName="ruaTrabalhador" />
+          <ScalarProperty Name="numeroTrabalhador" ColumnName="numeroTrabalhador" />
+          <ScalarProperty Name="cepTrabalhador" ColumnName="cepTrabalhador" />
+          <ScalarProperty Name="areaAtuacao" ColumnName="areaAtuacao" />
+          <ScalarProperty Name="cargoAtuacao" ColumnName="cargoAtuacao" />
+          <ScalarProperty Name="objetivo" ColumnName="objetivo" />
+          <ScalarProperty Name="formacaoAcademica" ColumnName="formacaoAcademica" />
+          <ScalarProperty Name="situacaoAtual" ColumnName="situacaoAtual" />
+          <ScalarProperty Name="facebookTrabalhador" ColumnName="facebookTrabalhador" />
+          <ScalarProperty Name="fotoUsuario" ColumnName="fotoUsuario" />
+          <ScalarProperty Name="FK_usuario_trabalhador" ColumnName="FK_usuario_trabalhador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="evento">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.evento">
+        <MappingFragment StoreEntitySet="evento">
+          <ScalarProperty Name="idEvento" ColumnName="idEvento" />
+          <ScalarProperty Name="vagaEvento" ColumnName="vagaEvento" />
+          <ScalarProperty Name="salario" ColumnName="salario" />
+          <ScalarProperty Name="turno" ColumnName="turno" />
+          <ScalarProperty Name="dataInicialEvento" ColumnName="dataInicialEvento" />
+          <ScalarProperty Name="dataFinalEvento" ColumnName="dataFinalEvento" />
+          <ScalarProperty Name="horarioInicialExpedienteEvento" ColumnName="horarioInicialExpedienteEvento" />
+          <ScalarProperty Name="horarioFinalExpedienteEvento" ColumnName="horarioFinalExpedienteEvento" />
+          <ScalarProperty Name="areaEvento" ColumnName="areaEvento" />
+          <ScalarProperty Name="telefoneEvento" ColumnName="telefoneEvento" />
+          <ScalarProperty Name="tipoEmprego" ColumnName="tipoEmprego" />
+          <ScalarProperty Name="estadoEvento" ColumnName="estadoEvento" />
+          <ScalarProperty Name="cidadeEvento" ColumnName="cidadeEvento" />
+          <ScalarProperty Name="bairroEvento" ColumnName="bairroEvento" />
+          <ScalarProperty Name="ruaEvento" ColumnName="ruaEvento" />
+          <ScalarProperty Name="numeroEvento" ColumnName="numeroEvento" />
+          <ScalarProperty Name="cepEvento" ColumnName="cepEvento" />
+          <ScalarProperty Name="FK_usuario_empresa" ColumnName="FK_usuario_empresa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="experiencia_internacional_evento">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.experiencia_internacional_evento">
+        <MappingFragment StoreEntitySet="experiencia_internacional_evento">
+          <ScalarProperty Name="idInternacionalEvento" ColumnName="idInternacionalEvento" />
+          <ScalarProperty Name="cargoInternacionalEvento" ColumnName="cargoInternacionalEvento" />
+          <ScalarProperty Name="paisCargoInternacionalEvento" ColumnName="paisCargoInternacionalEvento" />
+          <ScalarProperty Name="FK_evento" ColumnName="FK_evento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="experiencia_internacional_trabalhador">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.experiencia_internacional_trabalhador">
+        <MappingFragment StoreEntitySet="experiencia_internacional_trabalhador">
+          <ScalarProperty Name="idInternacionalTrabalhador" ColumnName="idInternacionalTrabalhador" />
+          <ScalarProperty Name="nomeEmpresaInternacionalTrabalhador" ColumnName="nomeEmpresaInternacionalTrabalhador" />
+          <ScalarProperty Name="cargoInternacionalTrabalhador" ColumnName="cargoInternacionalTrabalhador" />
+          <ScalarProperty Name="dataEntradaInternacionalTrabalhador" ColumnName="dataEntradaInternacionalTrabalhador" />
+          <ScalarProperty Name="dataSaidaInternacionalTrabalhador" ColumnName="dataSaidaInternacionalTrabalhador" />
+          <ScalarProperty Name="paisInternacionalTrabalhador" ColumnName="paisInternacionalTrabalhador" />
+          <ScalarProperty Name="FK_curriculo" ColumnName="FK_curriculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="experiencia_profissional_evento">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.experiencia_profissional_evento">
+        <MappingFragment StoreEntitySet="experiencia_profissional_evento">
+          <ScalarProperty Name="idExperienciaEvento" ColumnName="idExperienciaEvento" />
+          <ScalarProperty Name="cargoExperienciaEvento" ColumnName="cargoExperienciaEvento" />
+          <ScalarProperty Name="FK_evento" ColumnName="FK_evento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="experiencia_profissional_trabalhador">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.experiencia_profissional_trabalhador">
+        <MappingFragment StoreEntitySet="experiencia_profissional_trabalhador">
+          <ScalarProperty Name="idExperienciaTrabalhador" ColumnName="idExperienciaTrabalhador" />
+          <ScalarProperty Name="nomeEmpresaExperienciaTrabalhador" ColumnName="nomeEmpresaExperienciaTrabalhador" />
+          <ScalarProperty Name="cargoExperienciaTrabalhador" ColumnName="cargoExperienciaTrabalhador" />
+          <ScalarProperty Name="dataEntradaExperienciaTrabalhador" ColumnName="dataEntradaExperienciaTrabalhador" />
+          <ScalarProperty Name="dataSaidaExperienciaTrabalhador" ColumnName="dataSaidaExperienciaTrabalhador" />
+          <ScalarProperty Name="FK_curriculo" ColumnName="FK_curriculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="idioma_evento">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.idioma_evento">
+        <MappingFragment StoreEntitySet="idioma_evento">
+          <ScalarProperty Name="idIdiomaEvento" ColumnName="idIdiomaEvento" />
+          <ScalarProperty Name="linguaEvento" ColumnName="linguaEvento" />
+          <ScalarProperty Name="nivelEvento" ColumnName="nivelEvento" />
+          <ScalarProperty Name="FK_evento" ColumnName="FK_evento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="idioma_trabalhador">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.idioma_trabalhador">
+        <MappingFragment StoreEntitySet="idioma_trabalhador">
+          <ScalarProperty Name="idIdiomaTrabalhador" ColumnName="idIdiomaTrabalhador" />
+          <ScalarProperty Name="linguaTrabalhador" ColumnName="linguaTrabalhador" />
+          <ScalarProperty Name="nivelTrabalhador" ColumnName="nivelTrabalhador" />
+          <ScalarProperty Name="FK_curriculo" ColumnName="FK_curriculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="interessados_empresa">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.interessados_empresa">
+        <MappingFragment StoreEntitySet="interessados_empresa">
+          <ScalarProperty Name="idInteressadosEmpresa" ColumnName="idInteressadosEmpresa" />
+          <ScalarProperty Name="FK_usuario_empresa" ColumnName="FK_usuario_empresa" />
+          <ScalarProperty Name="FK_curriculo" ColumnName="FK_curriculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="interessados_trabalhador">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.interessados_trabalhador">
+        <MappingFragment StoreEntitySet="interessados_trabalhador">
+          <ScalarProperty Name="idInteressadosTrabalhador" ColumnName="idInteressadosTrabalhador" />
+          <ScalarProperty Name="FK_usuario_trabalhador" ColumnName="FK_usuario_trabalhador" />
+          <ScalarProperty Name="FK_evento" ColumnName="FK_evento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mensagem">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.mensagem">
+        <MappingFragment StoreEntitySet="mensagem">
+          <ScalarProperty Name="idMensagem" ColumnName="idMensagem" />
+          <ScalarProperty Name="destinatarioMensagem" ColumnName="destinatarioMensagem" />
+          <ScalarProperty Name="textoMensagem" ColumnName="textoMensagem" />
+          <ScalarProperty Name="dataMensagem" ColumnName="dataMensagem" />
+          <ScalarProperty Name="horarioMensagem" ColumnName="horarioMensagem" />
+          <ScalarProperty Name="FK_usuario" ColumnName="FK_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="notificacao">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.notificacao">
+        <MappingFragment StoreEntitySet="notificacao">
+          <ScalarProperty Name="idNotificacao" ColumnName="idNotificacao" />
+          <ScalarProperty Name="tituloNotificacao" ColumnName="tituloNotificacao" />
+          <ScalarProperty Name="textoNotificacao" ColumnName="textoNotificacao" />
+          <ScalarProperty Name="dataNotificacao" ColumnName="dataNotificacao" />
+          <ScalarProperty Name="horarioNotificacao" ColumnName="horarioNotificacao" />
+          <ScalarProperty Name="situacaoNotificacao" ColumnName="situacaoNotificacao" />
+          <ScalarProperty Name="FK_usuario" ColumnName="FK_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="perfil_empresa">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.perfil_empresa">
+        <MappingFragment StoreEntitySet="perfil_empresa">
+          <ScalarProperty Name="idPerfilEmpresa" ColumnName="idPerfilEmpresa" />
+          <ScalarProperty Name="site" ColumnName="site" />
+          <ScalarProperty Name="instagram" ColumnName="instagram" />
+          <ScalarProperty Name="twitter" ColumnName="twitter" />
+          <ScalarProperty Name="facebookEmpresa" ColumnName="facebookEmpresa" />
+          <ScalarProperty Name="estadoEmpresa" ColumnName="estadoEmpresa" />
+          <ScalarProperty Name="cidadeEmpresa" ColumnName="cidadeEmpresa" />
+          <ScalarProperty Name="bairroEmpresa" ColumnName="bairroEmpresa" />
+          <ScalarProperty Name="ruaEmpresa" ColumnName="ruaEmpresa" />
+          <ScalarProperty Name="numeroEmpresa" ColumnName="numeroEmpresa" />
+          <ScalarProperty Name="cepEmpresa" ColumnName="cepEmpresa" />
+          <ScalarProperty Name="fotoEmpresa" ColumnName="fotoEmpresa" />
+          <ScalarProperty Name="descricaoEmpresa" ColumnName="descricaoEmpresa" />
+          <ScalarProperty Name="FK_usuario_empresa" ColumnName="FK_usuario_empresa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="preferencia">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.preferencia">
+        <MappingFragment StoreEntitySet="preferencia">
+          <ScalarProperty Name="idPreferencia" ColumnName="idPreferencia" />
+          <ScalarProperty Name="receberNotificacao" ColumnName="receberNotificacao" />
+          <ScalarProperty Name="receberRecomendacoes" ColumnName="receberRecomendacoes" />
+          <ScalarProperty Name="privacidade" ColumnName="privacidade" />
+          <ScalarProperty Name="localizacao" ColumnName="localizacao" />
+          <ScalarProperty Name="FK_usuario" ColumnName="FK_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="qualificacao_evento">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.qualificacao_evento">
+        <MappingFragment StoreEntitySet="qualificacao_evento">
+          <ScalarProperty Name="idQualificacaoEvento" ColumnName="idQualificacaoEvento" />
+          <ScalarProperty Name="nomeQualificacaoEvento" ColumnName="nomeQualificacaoEvento" />
+          <ScalarProperty Name="tipoQualificacaoEvento" ColumnName="tipoQualificacaoEvento" />
+          <ScalarProperty Name="FK_evento" ColumnName="FK_evento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="qualificacao_trabalhador">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.qualificacao_trabalhador">
+        <MappingFragment StoreEntitySet="qualificacao_trabalhador">
+          <ScalarProperty Name="idQualificacaoTrabalhador" ColumnName="idQualificacaoTrabalhador" />
+          <ScalarProperty Name="nomeQualificacaoTrabalhador" ColumnName="nomeQualificacaoTrabalhador" />
+          <ScalarProperty Name="tipoQualificacaoTrabalhador" ColumnName="tipoQualificacaoTrabalhador" />
+          <ScalarProperty Name="areaQualificacaoTrabalhador" ColumnName="areaQualificacaoTrabalhador" />
+          <ScalarProperty Name="instituicaoQualificacaoTrabalhador" ColumnName="instituicaoQualificacaoTrabalhador" />
+          <ScalarProperty Name="dataInicioQualificacaoTrabalhador" ColumnName="dataInicioQualificacaoTrabalhador" />
+          <ScalarProperty Name="dataFinalQualificacaoTrabalhador" ColumnName="dataFinalQualificacaoTrabalhador" />
+          <ScalarProperty Name="FK_curriculo" ColumnName="FK_curriculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="recomendados_empresa">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.recomendados_empresa">
+        <MappingFragment StoreEntitySet="recomendados_empresa">
+          <ScalarProperty Name="IdRecomendadosEmpresa" ColumnName="IdRecomendadosEmpresa" />
+          <ScalarProperty Name="FK_usuario_empresa" ColumnName="FK_usuario_empresa" />
+          <ScalarProperty Name="FK_curriculo" ColumnName="FK_curriculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="recomendados_trabalhador">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.recomendados_trabalhador">
+        <MappingFragment StoreEntitySet="recomendados_trabalhador">
+          <ScalarProperty Name="idRecomendadosTrabalhador" ColumnName="idRecomendadosTrabalhador" />
+          <ScalarProperty Name="FK_usuario_empresa" ColumnName="FK_usuario_empresa" />
+          <ScalarProperty Name="FK_usuario_trabalhador" ColumnName="FK_usuario_trabalhador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="trabalho_voluntario_trabalhador">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.trabalho_voluntario_trabalhador">
+        <MappingFragment StoreEntitySet="trabalho_voluntario_trabalhador">
+          <ScalarProperty Name="idVoluntarioTrabalhador" ColumnName="idVoluntarioTrabalhador" />
+          <ScalarProperty Name="instituicaoVoluntarioTrabalhador" ColumnName="instituicaoVoluntarioTrabalhador" />
+          <ScalarProperty Name="responsavelVoluntarioTrabalhador" ColumnName="responsavelVoluntarioTrabalhador" />
+          <ScalarProperty Name="dataEntradaVoluntarioTrabalhador" ColumnName="dataEntradaVoluntarioTrabalhador" />
+          <ScalarProperty Name="dataSaidaVoluntarioTrabalhador" ColumnName="dataSaidaVoluntarioTrabalhador" />
+          <ScalarProperty Name="FK_curriculo" ColumnName="FK_curriculo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="nomeUsuario" ColumnName="nomeUsuario" />
+          <ScalarProperty Name="e_mailUsuario" ColumnName="e-mailUsuario" />
+          <ScalarProperty Name="senhaUsuario" ColumnName="senhaUsuario" />
+          <ScalarProperty Name="tipoUsuario" ColumnName="tipoUsuario" />
+          <ScalarProperty Name="telefoneUsuario" ColumnName="telefoneUsuario" />
+          <ScalarProperty Name="latitudeUsuario" ColumnName="latitudeUsuario" />
+          <ScalarProperty Name="longitudeUsuario" ColumnName="longitudeUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario_empresa">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.usuario_empresa">
+        <MappingFragment StoreEntitySet="usuario_empresa">
+          <ScalarProperty Name="cnpj" ColumnName="cnpj" />
+          <ScalarProperty Name="areaEmpresa" ColumnName="areaEmpresa" />
+          <ScalarProperty Name="FK_usuario" ColumnName="FK_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario_trabalhador">
+      <EntityTypeMapping TypeName="Pismire_TCCModel.usuario_trabalhador">
+        <MappingFragment StoreEntitySet="usuario_trabalhador">
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="RG" ColumnName="RG" />
+          <ScalarProperty Name="dataNascimento" ColumnName="dataNascimento" />
+          <ScalarProperty Name="FK_usuario" ColumnName="FK_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

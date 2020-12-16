@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="399e706c5d554d05b1a6140d831f3a6c" Name="Diagram1">
+        <EntityTypeShape EntityType="Pismire_TCCModel.avaliacao" Width="1.5" PointX="7.5" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.beneficios" Width="1.5" PointX="7.5" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.candidatos" Width="1.5" PointX="7.5" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.curriculo" Width="1.5" PointX="5.25" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.evento" Width="1.5" PointX="5.25" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.experiencia_internacional_evento" Width="1.5" PointX="7.5" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.experiencia_internacional_trabalhador" Width="1.5" PointX="7.5" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.experiencia_profissional_evento" Width="1.5" PointX="7.5" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.experiencia_profissional_trabalhador" Width="1.5" PointX="7.5" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.idioma_evento" Width="1.5" PointX="7.5" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.idioma_trabalhador" Width="1.5" PointX="7.5" PointY="54.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.interessados_empresa" Width="1.5" PointX="7.5" PointY="44.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.interessados_trabalhador" Width="1.5" PointX="10.5" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.mensagem" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.notificacao" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.perfil_empresa" Width="1.5" PointX="5.25" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.preferencia" Width="1.5" PointX="3" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.qualificacao_evento" Width="1.5" PointX="7.5" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.qualificacao_trabalhador" Width="1.5" PointX="7.5" PointY="59.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.recomendados_empresa" Width="1.5" PointX="10.5" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.recomendados_trabalhador" Width="1.5" PointX="5.25" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.trabalho_voluntario_trabalhador" Width="1.5" PointX="7.5" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.usuario" Width="1.5" PointX="0.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.usuario_empresa" Width="1.5" PointX="3" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pismire_TCCModel.usuario_trabalhador" Width="1.5" PointX="3" PointY="47.5" IsExpanded="true" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_curriculo_trab" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_usuario_empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_beneficio_evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_candidatos_evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_candidatos_usuario_trabalhador" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_curriculo" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_curriculo_trabalhador" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_exp_internacional" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_experiencia_profissional_trabalhador" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_idioma" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_interessadosEmpresa_curriculo" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_recomendados_empresa_curriculo" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_usuario_trabalhador" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_evento_usuario_empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_experiencia_evento_evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_experiencia_internacional_evento_evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_idInteressadosTrabalhador_evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_idioma_evento_evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_qualificacao_evento_evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_interessadosEmpresa_usuario_empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_idInteressadosTrabalhador_usuario_trabalhador" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_mensagem" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_notificacao" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_perfil_empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_preferencia_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_recomendados_empresa_usuario_empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_recomendados_trabalhador_usuario_empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_recomendados_trabalhador_usuario_trabalhador" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Pismire_TCCModel.FK_usuarios" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

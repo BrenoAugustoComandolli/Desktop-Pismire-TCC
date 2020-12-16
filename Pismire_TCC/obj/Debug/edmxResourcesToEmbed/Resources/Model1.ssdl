@@ -1,0 +1,800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Pismire_TCCModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="avaliacao">
+    <Key>
+      <PropertyRef Name="idAvaliacao" />
+    </Key>
+    <Property Name="idAvaliacao" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="destinatarioAvaliacao" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="nota" Type="float" Nullable="false" />
+    <Property Name="comentario" Type="text" />
+    <Property Name="FK_curriculo" Type="int" Nullable="false" />
+    <Property Name="FK_usuario_empresa" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="beneficios">
+    <Key>
+      <PropertyRef Name="idBeneficio" />
+    </Key>
+    <Property Name="idBeneficio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="assistenciaSaude" Type="bit" Nullable="false" />
+    <Property Name="assistenciaOdontologica" Type="bit" Nullable="false" />
+    <Property Name="valeAlimentacao" Type="bit" Nullable="false" />
+    <Property Name="valeCultura" Type="bit" Nullable="false" />
+    <Property Name="trabalhoHomeOffice" Type="bit" Nullable="false" />
+    <Property Name="valeViagem" Type="bit" Nullable="false" />
+    <Property Name="salasDeConferencias" Type="bit" Nullable="false" />
+    <Property Name="bolsasDeEstudos" Type="bit" Nullable="false" />
+    <Property Name="FK_evento" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="candidatos">
+    <Key>
+      <PropertyRef Name="idCandidatos" />
+    </Key>
+    <Property Name="idCandidatos" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dataInscricao" Type="date" Nullable="false" />
+    <Property Name="horaInscricao" Type="time" Precision="7" Nullable="false" />
+    <Property Name="FK_evento" Type="int" Nullable="false" />
+    <Property Name="FK_usuario_trabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="curriculo">
+    <Key>
+      <PropertyRef Name="idCurriculo" />
+    </Key>
+    <Property Name="idCurriculo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="generoTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="celularTrabalhador" Type="varchar" MaxLength="45" />
+    <Property Name="estadoCivil" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="nacionalidade" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="deficienciaFisica" Type="bit" Nullable="false" />
+    <Property Name="estadoTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="cidadeTrabalhador" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="bairroTrabalhador" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="ruaTrabalhador" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="numeroTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="cepTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="areaAtuacao" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="cargoAtuacao" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="objetivo" Type="text" Nullable="false" />
+    <Property Name="formacaoAcademica" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="situacaoAtual" Type="bit" Nullable="false" />
+    <Property Name="facebookTrabalhador" Type="varchar" MaxLength="255" />
+    <Property Name="fotoUsuario" Type="varbinary(max)" />
+    <Property Name="FK_usuario_trabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="evento">
+    <Key>
+      <PropertyRef Name="idEvento" />
+    </Key>
+    <Property Name="idEvento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="vagaEvento" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="salario" Type="float" Nullable="false" />
+    <Property Name="turno" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="dataInicialEvento" Type="date" Nullable="false" />
+    <Property Name="dataFinalEvento" Type="date" Nullable="false" />
+    <Property Name="horarioInicialExpedienteEvento" Type="time" Precision="7" Nullable="false" />
+    <Property Name="horarioFinalExpedienteEvento" Type="time" Precision="7" Nullable="false" />
+    <Property Name="areaEvento" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="telefoneEvento" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="tipoEmprego" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="estadoEvento" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="cidadeEvento" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="bairroEvento" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="ruaEvento" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="numeroEvento" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="cepEvento" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FK_usuario_empresa" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="experiencia_internacional_evento">
+    <Key>
+      <PropertyRef Name="idInternacionalEvento" />
+    </Key>
+    <Property Name="idInternacionalEvento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cargoInternacionalEvento" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="paisCargoInternacionalEvento" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FK_evento" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="experiencia_internacional_trabalhador">
+    <Key>
+      <PropertyRef Name="idInternacionalTrabalhador" />
+    </Key>
+    <Property Name="idInternacionalTrabalhador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomeEmpresaInternacionalTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="cargoInternacionalTrabalhador" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="dataEntradaInternacionalTrabalhador" Type="date" Nullable="false" />
+    <Property Name="dataSaidaInternacionalTrabalhador" Type="date" Nullable="false" />
+    <Property Name="paisInternacionalTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FK_curriculo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="experiencia_profissional_evento">
+    <Key>
+      <PropertyRef Name="idExperienciaEvento" />
+    </Key>
+    <Property Name="idExperienciaEvento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cargoExperienciaEvento" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="FK_evento" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="experiencia_profissional_trabalhador">
+    <Key>
+      <PropertyRef Name="idExperienciaTrabalhador" />
+    </Key>
+    <Property Name="idExperienciaTrabalhador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomeEmpresaExperienciaTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="cargoExperienciaTrabalhador" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="dataEntradaExperienciaTrabalhador" Type="date" Nullable="false" />
+    <Property Name="dataSaidaExperienciaTrabalhador" Type="date" Nullable="false" />
+    <Property Name="FK_curriculo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="idioma_evento">
+    <Key>
+      <PropertyRef Name="idIdiomaEvento" />
+    </Key>
+    <Property Name="idIdiomaEvento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="linguaEvento" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="nivelEvento" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FK_evento" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="idioma_trabalhador">
+    <Key>
+      <PropertyRef Name="idIdiomaTrabalhador" />
+    </Key>
+    <Property Name="idIdiomaTrabalhador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="linguaTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="nivelTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FK_curriculo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="interessados_empresa">
+    <Key>
+      <PropertyRef Name="idInteressadosEmpresa" />
+    </Key>
+    <Property Name="idInteressadosEmpresa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_usuario_empresa" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FK_curriculo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="interessados_trabalhador">
+    <Key>
+      <PropertyRef Name="idInteressadosTrabalhador" />
+    </Key>
+    <Property Name="idInteressadosTrabalhador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_usuario_trabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FK_evento" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="mensagem">
+    <Key>
+      <PropertyRef Name="idMensagem" />
+    </Key>
+    <Property Name="idMensagem" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="destinatarioMensagem" Type="int" Nullable="false" />
+    <Property Name="textoMensagem" Type="text" Nullable="false" />
+    <Property Name="dataMensagem" Type="date" Nullable="false" />
+    <Property Name="horarioMensagem" Type="time" Precision="7" Nullable="false" />
+    <Property Name="FK_usuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="notificacao">
+    <Key>
+      <PropertyRef Name="idNotificacao" />
+    </Key>
+    <Property Name="idNotificacao" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tituloNotificacao" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="textoNotificacao" Type="text" Nullable="false" />
+    <Property Name="dataNotificacao" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="horarioNotificacao" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="situacaoNotificacao" Type="bit" Nullable="false" />
+    <Property Name="FK_usuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="perfil_empresa">
+    <Key>
+      <PropertyRef Name="idPerfilEmpresa" />
+    </Key>
+    <Property Name="idPerfilEmpresa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="site" Type="text" />
+    <Property Name="instagram" Type="varchar" MaxLength="255" />
+    <Property Name="twitter" Type="varchar" MaxLength="255" />
+    <Property Name="facebookEmpresa" Type="varchar" MaxLength="255" />
+    <Property Name="estadoEmpresa" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="cidadeEmpresa" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="bairroEmpresa" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="ruaEmpresa" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="numeroEmpresa" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="cepEmpresa" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="fotoEmpresa" Type="varbinary(max)" Nullable="false" />
+    <Property Name="descricaoEmpresa" Type="text" Nullable="false" />
+    <Property Name="FK_usuario_empresa" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="preferencia">
+    <Key>
+      <PropertyRef Name="idPreferencia" />
+    </Key>
+    <Property Name="idPreferencia" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="receberNotificacao" Type="bit" Nullable="false" />
+    <Property Name="receberRecomendacoes" Type="bit" Nullable="false" />
+    <Property Name="privacidade" Type="bit" Nullable="false" />
+    <Property Name="localizacao" Type="bit" Nullable="false" />
+    <Property Name="FK_usuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="qualificacao_evento">
+    <Key>
+      <PropertyRef Name="idQualificacaoEvento" />
+    </Key>
+    <Property Name="idQualificacaoEvento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomeQualificacaoEvento" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="tipoQualificacaoEvento" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="FK_evento" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="qualificacao_trabalhador">
+    <Key>
+      <PropertyRef Name="idQualificacaoTrabalhador" />
+    </Key>
+    <Property Name="idQualificacaoTrabalhador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomeQualificacaoTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="tipoQualificacaoTrabalhador" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="areaQualificacaoTrabalhador" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="instituicaoQualificacaoTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="dataInicioQualificacaoTrabalhador" Type="date" Nullable="false" />
+    <Property Name="dataFinalQualificacaoTrabalhador" Type="date" Nullable="false" />
+    <Property Name="FK_curriculo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="recomendados_empresa">
+    <Key>
+      <PropertyRef Name="IdRecomendadosEmpresa" />
+    </Key>
+    <Property Name="IdRecomendadosEmpresa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_usuario_empresa" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FK_curriculo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="recomendados_trabalhador">
+    <Key>
+      <PropertyRef Name="idRecomendadosTrabalhador" />
+    </Key>
+    <Property Name="idRecomendadosTrabalhador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FK_usuario_empresa" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FK_usuario_trabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="trabalho_voluntario_trabalhador">
+    <Key>
+      <PropertyRef Name="idVoluntarioTrabalhador" />
+    </Key>
+    <Property Name="idVoluntarioTrabalhador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="instituicaoVoluntarioTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="responsavelVoluntarioTrabalhador" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="dataEntradaVoluntarioTrabalhador" Type="date" Nullable="false" />
+    <Property Name="dataSaidaVoluntarioTrabalhador" Type="date" Nullable="false" />
+    <Property Name="FK_curriculo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nomeUsuario" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="e-mailUsuario" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="senhaUsuario" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="tipoUsuario" Type="bit" Nullable="false" />
+    <Property Name="telefoneUsuario" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="latitudeUsuario" Type="varchar" MaxLength="255" />
+    <Property Name="longitudeUsuario" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="usuario_empresa">
+    <Key>
+      <PropertyRef Name="cnpj" />
+    </Key>
+    <Property Name="cnpj" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="areaEmpresa" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="FK_usuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="usuario_trabalhador">
+    <Key>
+      <PropertyRef Name="CPF" />
+    </Key>
+    <Property Name="CPF" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="RG" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="dataNascimento" Type="date" Nullable="false" />
+    <Property Name="FK_usuario" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_beneficio_evento">
+    <End Role="evento" Type="Self.evento" Multiplicity="1" />
+    <End Role="beneficios" Type="Self.beneficios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="evento">
+        <PropertyRef Name="idEvento" />
+      </Principal>
+      <Dependent Role="beneficios">
+        <PropertyRef Name="FK_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_candidatos_evento">
+    <End Role="evento" Type="Self.evento" Multiplicity="1" />
+    <End Role="candidatos" Type="Self.candidatos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="evento">
+        <PropertyRef Name="idEvento" />
+      </Principal>
+      <Dependent Role="candidatos">
+        <PropertyRef Name="FK_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_candidatos_usuario_trabalhador">
+    <End Role="usuario_trabalhador" Type="Self.usuario_trabalhador" Multiplicity="1" />
+    <End Role="candidatos" Type="Self.candidatos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_trabalhador">
+        <PropertyRef Name="CPF" />
+      </Principal>
+      <Dependent Role="candidatos">
+        <PropertyRef Name="FK_usuario_trabalhador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_curriculo">
+    <End Role="curriculo" Type="Self.curriculo" Multiplicity="1" />
+    <End Role="qualificacao_trabalhador" Type="Self.qualificacao_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="curriculo">
+        <PropertyRef Name="idCurriculo" />
+      </Principal>
+      <Dependent Role="qualificacao_trabalhador">
+        <PropertyRef Name="FK_curriculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_curriculo_trab">
+    <End Role="curriculo" Type="Self.curriculo" Multiplicity="1" />
+    <End Role="avaliacao" Type="Self.avaliacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="curriculo">
+        <PropertyRef Name="idCurriculo" />
+      </Principal>
+      <Dependent Role="avaliacao">
+        <PropertyRef Name="FK_curriculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_curriculo_trabalhador">
+    <End Role="curriculo" Type="Self.curriculo" Multiplicity="1" />
+    <End Role="trabalho_voluntario_trabalhador" Type="Self.trabalho_voluntario_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="curriculo">
+        <PropertyRef Name="idCurriculo" />
+      </Principal>
+      <Dependent Role="trabalho_voluntario_trabalhador">
+        <PropertyRef Name="FK_curriculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_evento_usuario_empresa">
+    <End Role="usuario_empresa" Type="Self.usuario_empresa" Multiplicity="1" />
+    <End Role="evento" Type="Self.evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_empresa">
+        <PropertyRef Name="cnpj" />
+      </Principal>
+      <Dependent Role="evento">
+        <PropertyRef Name="FK_usuario_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_exp_internacional">
+    <End Role="curriculo" Type="Self.curriculo" Multiplicity="1" />
+    <End Role="experiencia_internacional_trabalhador" Type="Self.experiencia_internacional_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="curriculo">
+        <PropertyRef Name="idCurriculo" />
+      </Principal>
+      <Dependent Role="experiencia_internacional_trabalhador">
+        <PropertyRef Name="FK_curriculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_experiencia_evento_evento">
+    <End Role="evento" Type="Self.evento" Multiplicity="1" />
+    <End Role="experiencia_profissional_evento" Type="Self.experiencia_profissional_evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="evento">
+        <PropertyRef Name="idEvento" />
+      </Principal>
+      <Dependent Role="experiencia_profissional_evento">
+        <PropertyRef Name="FK_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_experiencia_internacional_evento_evento">
+    <End Role="evento" Type="Self.evento" Multiplicity="1" />
+    <End Role="experiencia_internacional_evento" Type="Self.experiencia_internacional_evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="evento">
+        <PropertyRef Name="idEvento" />
+      </Principal>
+      <Dependent Role="experiencia_internacional_evento">
+        <PropertyRef Name="FK_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_experiencia_profissional_trabalhador">
+    <End Role="curriculo" Type="Self.curriculo" Multiplicity="1" />
+    <End Role="experiencia_profissional_trabalhador" Type="Self.experiencia_profissional_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="curriculo">
+        <PropertyRef Name="idCurriculo" />
+      </Principal>
+      <Dependent Role="experiencia_profissional_trabalhador">
+        <PropertyRef Name="FK_curriculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_idInteressadosTrabalhador_evento">
+    <End Role="evento" Type="Self.evento" Multiplicity="1" />
+    <End Role="interessados_trabalhador" Type="Self.interessados_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="evento">
+        <PropertyRef Name="idEvento" />
+      </Principal>
+      <Dependent Role="interessados_trabalhador">
+        <PropertyRef Name="FK_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_idInteressadosTrabalhador_usuario_trabalhador">
+    <End Role="usuario_trabalhador" Type="Self.usuario_trabalhador" Multiplicity="1" />
+    <End Role="interessados_trabalhador" Type="Self.interessados_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_trabalhador">
+        <PropertyRef Name="CPF" />
+      </Principal>
+      <Dependent Role="interessados_trabalhador">
+        <PropertyRef Name="FK_usuario_trabalhador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_idioma">
+    <End Role="curriculo" Type="Self.curriculo" Multiplicity="1" />
+    <End Role="idioma_trabalhador" Type="Self.idioma_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="curriculo">
+        <PropertyRef Name="idCurriculo" />
+      </Principal>
+      <Dependent Role="idioma_trabalhador">
+        <PropertyRef Name="FK_curriculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_idioma_evento_evento">
+    <End Role="evento" Type="Self.evento" Multiplicity="1" />
+    <End Role="idioma_evento" Type="Self.idioma_evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="evento">
+        <PropertyRef Name="idEvento" />
+      </Principal>
+      <Dependent Role="idioma_evento">
+        <PropertyRef Name="FK_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_interessadosEmpresa_curriculo">
+    <End Role="curriculo" Type="Self.curriculo" Multiplicity="1" />
+    <End Role="interessados_empresa" Type="Self.interessados_empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="curriculo">
+        <PropertyRef Name="idCurriculo" />
+      </Principal>
+      <Dependent Role="interessados_empresa">
+        <PropertyRef Name="FK_curriculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_interessadosEmpresa_usuario_empresa">
+    <End Role="usuario_empresa" Type="Self.usuario_empresa" Multiplicity="1" />
+    <End Role="interessados_empresa" Type="Self.interessados_empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_empresa">
+        <PropertyRef Name="cnpj" />
+      </Principal>
+      <Dependent Role="interessados_empresa">
+        <PropertyRef Name="FK_usuario_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mensagem">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="mensagem" Type="Self.mensagem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="mensagem">
+        <PropertyRef Name="FK_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_notificacao">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="notificacao" Type="Self.notificacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="notificacao">
+        <PropertyRef Name="FK_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_perfil_empresa">
+    <End Role="usuario_empresa" Type="Self.usuario_empresa" Multiplicity="1" />
+    <End Role="perfil_empresa" Type="Self.perfil_empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_empresa">
+        <PropertyRef Name="cnpj" />
+      </Principal>
+      <Dependent Role="perfil_empresa">
+        <PropertyRef Name="FK_usuario_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_preferencia_usuario">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="preferencia" Type="Self.preferencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="preferencia">
+        <PropertyRef Name="FK_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_qualificacao_evento_evento">
+    <End Role="evento" Type="Self.evento" Multiplicity="1" />
+    <End Role="qualificacao_evento" Type="Self.qualificacao_evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="evento">
+        <PropertyRef Name="idEvento" />
+      </Principal>
+      <Dependent Role="qualificacao_evento">
+        <PropertyRef Name="FK_evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_recomendados_empresa_curriculo">
+    <End Role="curriculo" Type="Self.curriculo" Multiplicity="1" />
+    <End Role="recomendados_empresa" Type="Self.recomendados_empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="curriculo">
+        <PropertyRef Name="idCurriculo" />
+      </Principal>
+      <Dependent Role="recomendados_empresa">
+        <PropertyRef Name="FK_curriculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_recomendados_empresa_usuario_empresa">
+    <End Role="usuario_empresa" Type="Self.usuario_empresa" Multiplicity="1" />
+    <End Role="recomendados_empresa" Type="Self.recomendados_empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_empresa">
+        <PropertyRef Name="cnpj" />
+      </Principal>
+      <Dependent Role="recomendados_empresa">
+        <PropertyRef Name="FK_usuario_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_recomendados_trabalhador_usuario_empresa">
+    <End Role="usuario_empresa" Type="Self.usuario_empresa" Multiplicity="1" />
+    <End Role="recomendados_trabalhador" Type="Self.recomendados_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_empresa">
+        <PropertyRef Name="cnpj" />
+      </Principal>
+      <Dependent Role="recomendados_trabalhador">
+        <PropertyRef Name="FK_usuario_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_recomendados_trabalhador_usuario_trabalhador">
+    <End Role="usuario_trabalhador" Type="Self.usuario_trabalhador" Multiplicity="1" />
+    <End Role="recomendados_trabalhador" Type="Self.recomendados_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_trabalhador">
+        <PropertyRef Name="CPF" />
+      </Principal>
+      <Dependent Role="recomendados_trabalhador">
+        <PropertyRef Name="FK_usuario_trabalhador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_usuario">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="usuario_trabalhador" Type="Self.usuario_trabalhador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="usuario_trabalhador">
+        <PropertyRef Name="FK_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_usuario_empresa">
+    <End Role="usuario_empresa" Type="Self.usuario_empresa" Multiplicity="1" />
+    <End Role="avaliacao" Type="Self.avaliacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_empresa">
+        <PropertyRef Name="cnpj" />
+      </Principal>
+      <Dependent Role="avaliacao">
+        <PropertyRef Name="FK_usuario_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_usuario_trabalhador">
+    <End Role="usuario_trabalhador" Type="Self.usuario_trabalhador" Multiplicity="1" />
+    <End Role="curriculo" Type="Self.curriculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario_trabalhador">
+        <PropertyRef Name="CPF" />
+      </Principal>
+      <Dependent Role="curriculo">
+        <PropertyRef Name="FK_usuario_trabalhador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_usuarios">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="usuario_empresa" Type="Self.usuario_empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="usuario_empresa">
+        <PropertyRef Name="FK_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Pismire_TCCModelStoreContainer">
+    <EntitySet Name="avaliacao" EntityType="Self.avaliacao" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="beneficios" EntityType="Self.beneficios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="candidatos" EntityType="Self.candidatos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="curriculo" EntityType="Self.curriculo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="evento" EntityType="Self.evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="experiencia_internacional_evento" EntityType="Self.experiencia_internacional_evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="experiencia_internacional_trabalhador" EntityType="Self.experiencia_internacional_trabalhador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="experiencia_profissional_evento" EntityType="Self.experiencia_profissional_evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="experiencia_profissional_trabalhador" EntityType="Self.experiencia_profissional_trabalhador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="idioma_evento" EntityType="Self.idioma_evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="idioma_trabalhador" EntityType="Self.idioma_trabalhador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="interessados_empresa" EntityType="Self.interessados_empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="interessados_trabalhador" EntityType="Self.interessados_trabalhador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mensagem" EntityType="Self.mensagem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="notificacao" EntityType="Self.notificacao" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="perfil_empresa" EntityType="Self.perfil_empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="preferencia" EntityType="Self.preferencia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="qualificacao_evento" EntityType="Self.qualificacao_evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="qualificacao_trabalhador" EntityType="Self.qualificacao_trabalhador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="recomendados_empresa" EntityType="Self.recomendados_empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="recomendados_trabalhador" EntityType="Self.recomendados_trabalhador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="trabalho_voluntario_trabalhador" EntityType="Self.trabalho_voluntario_trabalhador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuario_empresa" EntityType="Self.usuario_empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuario_trabalhador" EntityType="Self.usuario_trabalhador" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_beneficio_evento" Association="Self.FK_beneficio_evento">
+      <End Role="evento" EntitySet="evento" />
+      <End Role="beneficios" EntitySet="beneficios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_candidatos_evento" Association="Self.FK_candidatos_evento">
+      <End Role="evento" EntitySet="evento" />
+      <End Role="candidatos" EntitySet="candidatos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_candidatos_usuario_trabalhador" Association="Self.FK_candidatos_usuario_trabalhador">
+      <End Role="usuario_trabalhador" EntitySet="usuario_trabalhador" />
+      <End Role="candidatos" EntitySet="candidatos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_curriculo" Association="Self.FK_curriculo">
+      <End Role="curriculo" EntitySet="curriculo" />
+      <End Role="qualificacao_trabalhador" EntitySet="qualificacao_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_curriculo_trab" Association="Self.FK_curriculo_trab">
+      <End Role="curriculo" EntitySet="curriculo" />
+      <End Role="avaliacao" EntitySet="avaliacao" />
+    </AssociationSet>
+    <AssociationSet Name="FK_curriculo_trabalhador" Association="Self.FK_curriculo_trabalhador">
+      <End Role="curriculo" EntitySet="curriculo" />
+      <End Role="trabalho_voluntario_trabalhador" EntitySet="trabalho_voluntario_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_evento_usuario_empresa" Association="Self.FK_evento_usuario_empresa">
+      <End Role="usuario_empresa" EntitySet="usuario_empresa" />
+      <End Role="evento" EntitySet="evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_exp_internacional" Association="Self.FK_exp_internacional">
+      <End Role="curriculo" EntitySet="curriculo" />
+      <End Role="experiencia_internacional_trabalhador" EntitySet="experiencia_internacional_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_experiencia_evento_evento" Association="Self.FK_experiencia_evento_evento">
+      <End Role="evento" EntitySet="evento" />
+      <End Role="experiencia_profissional_evento" EntitySet="experiencia_profissional_evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_experiencia_internacional_evento_evento" Association="Self.FK_experiencia_internacional_evento_evento">
+      <End Role="evento" EntitySet="evento" />
+      <End Role="experiencia_internacional_evento" EntitySet="experiencia_internacional_evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_experiencia_profissional_trabalhador" Association="Self.FK_experiencia_profissional_trabalhador">
+      <End Role="curriculo" EntitySet="curriculo" />
+      <End Role="experiencia_profissional_trabalhador" EntitySet="experiencia_profissional_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_idInteressadosTrabalhador_evento" Association="Self.FK_idInteressadosTrabalhador_evento">
+      <End Role="evento" EntitySet="evento" />
+      <End Role="interessados_trabalhador" EntitySet="interessados_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_idInteressadosTrabalhador_usuario_trabalhador" Association="Self.FK_idInteressadosTrabalhador_usuario_trabalhador">
+      <End Role="usuario_trabalhador" EntitySet="usuario_trabalhador" />
+      <End Role="interessados_trabalhador" EntitySet="interessados_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_idioma" Association="Self.FK_idioma">
+      <End Role="curriculo" EntitySet="curriculo" />
+      <End Role="idioma_trabalhador" EntitySet="idioma_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_idioma_evento_evento" Association="Self.FK_idioma_evento_evento">
+      <End Role="evento" EntitySet="evento" />
+      <End Role="idioma_evento" EntitySet="idioma_evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_interessadosEmpresa_curriculo" Association="Self.FK_interessadosEmpresa_curriculo">
+      <End Role="curriculo" EntitySet="curriculo" />
+      <End Role="interessados_empresa" EntitySet="interessados_empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_interessadosEmpresa_usuario_empresa" Association="Self.FK_interessadosEmpresa_usuario_empresa">
+      <End Role="usuario_empresa" EntitySet="usuario_empresa" />
+      <End Role="interessados_empresa" EntitySet="interessados_empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mensagem" Association="Self.FK_mensagem">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="mensagem" EntitySet="mensagem" />
+    </AssociationSet>
+    <AssociationSet Name="FK_notificacao" Association="Self.FK_notificacao">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="notificacao" EntitySet="notificacao" />
+    </AssociationSet>
+    <AssociationSet Name="FK_perfil_empresa" Association="Self.FK_perfil_empresa">
+      <End Role="usuario_empresa" EntitySet="usuario_empresa" />
+      <End Role="perfil_empresa" EntitySet="perfil_empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_preferencia_usuario" Association="Self.FK_preferencia_usuario">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="preferencia" EntitySet="preferencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_qualificacao_evento_evento" Association="Self.FK_qualificacao_evento_evento">
+      <End Role="evento" EntitySet="evento" />
+      <End Role="qualificacao_evento" EntitySet="qualificacao_evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_recomendados_empresa_curriculo" Association="Self.FK_recomendados_empresa_curriculo">
+      <End Role="curriculo" EntitySet="curriculo" />
+      <End Role="recomendados_empresa" EntitySet="recomendados_empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_recomendados_empresa_usuario_empresa" Association="Self.FK_recomendados_empresa_usuario_empresa">
+      <End Role="usuario_empresa" EntitySet="usuario_empresa" />
+      <End Role="recomendados_empresa" EntitySet="recomendados_empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_recomendados_trabalhador_usuario_empresa" Association="Self.FK_recomendados_trabalhador_usuario_empresa">
+      <End Role="usuario_empresa" EntitySet="usuario_empresa" />
+      <End Role="recomendados_trabalhador" EntitySet="recomendados_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_recomendados_trabalhador_usuario_trabalhador" Association="Self.FK_recomendados_trabalhador_usuario_trabalhador">
+      <End Role="usuario_trabalhador" EntitySet="usuario_trabalhador" />
+      <End Role="recomendados_trabalhador" EntitySet="recomendados_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_usuario" Association="Self.FK_usuario">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="usuario_trabalhador" EntitySet="usuario_trabalhador" />
+    </AssociationSet>
+    <AssociationSet Name="FK_usuario_empresa" Association="Self.FK_usuario_empresa">
+      <End Role="usuario_empresa" EntitySet="usuario_empresa" />
+      <End Role="avaliacao" EntitySet="avaliacao" />
+    </AssociationSet>
+    <AssociationSet Name="FK_usuario_trabalhador" Association="Self.FK_usuario_trabalhador">
+      <End Role="usuario_trabalhador" EntitySet="usuario_trabalhador" />
+      <End Role="curriculo" EntitySet="curriculo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_usuarios" Association="Self.FK_usuarios">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="usuario_empresa" EntitySet="usuario_empresa" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

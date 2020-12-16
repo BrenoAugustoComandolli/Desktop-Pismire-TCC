@@ -1,0 +1,414 @@
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe.config
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.pdb
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csprojAssemblyReference.cache
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Properties.Resources.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.GenerateResource.cache
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CoreCompileInputs.cache
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.exe
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.pdb
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.dll
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.xml
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CopyComplete
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaLogin.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalEmpresa.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.PerfilEmpresa.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.EditPerfil.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracao.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSeguranca.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSenha.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfNotificacao.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.ChatEmpresa.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEvento.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaBuscarUsuario.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrivacidade.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSobre.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaAvaliacao.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEditarNotificacoes.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacaoAberta.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacao.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Resources.TelaNotificacaoADM.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInserirIdiomaEvento.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoCurriculo.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInserirExperienciaInternacional.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaExperienciaProfissionalEvento.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaCandidatos.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEventosCriados.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInserirQualificacaoEvento.resources
+C:\Users\yurid\OneDrive\Área de Trabalho\Pismire Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInteressados.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.exe
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.pdb
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe.config
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.pdb
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaLogin.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaAvaliacao.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaCandidatos.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracao.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEvento.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEventosCriados.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInteressados.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacaoAberta.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Resources.TelaNotificacaoADM.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacao.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalEmpresa.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSobre.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoCurriculo.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPoliticaPrivacidade.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosUso.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosLicenca.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPerfilEmpresa.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaChatEmpresa.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEditarPerfil.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAviso.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoNotificacao.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaProfissionalEvento.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaInternacional.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarIdiomaEvento.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarQualificacaoEvento.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoPrivacidade.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSeguranca.resources
+C:\Users\Usuario\Desktop\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaGerenciarNotificacoes.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe.config
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.pdb
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaChatEmpresa.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEditarPerfil.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAviso.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPerfilEmpresa.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaAvaliacao.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaCandidatos.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracao.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoNotificacao.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaGerenciarNotificacoes.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEvento.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEventosCriados.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaProfissionalEvento.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaInternacional.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarIdiomaEvento.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarQualificacaoEvento.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInteressados.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaLogin.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacaoAberta.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Resources.TelaNotificacaoADM.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacao.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPoliticaPrivacidade.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalEmpresa.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoPrivacidade.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSeguranca.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSobre.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosLicenca.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosUso.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoCurriculo.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.exe
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.pdb
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAvisoAlternativa.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalTrabalhador.resources
+C:\Users\Usuario\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Add.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe.config
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.pdb
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.dll
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.dll
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.xml
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.xml
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csprojAssemblyReference.cache
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaChatEmpresa.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEditarPerfil.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAviso.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAvisoAlternativa.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPerfilEmpresa.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Properties.Resources.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaAvaliacao.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaCandidatos.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracao.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoNotificacao.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaGerenciarNotificacoes.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEvento.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEventosCriados.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalTrabalhador.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaProfissionalEvento.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaInternacional.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarIdiomaEvento.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarQualificacaoEvento.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInteressados.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaLogin.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacaoAberta.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Resources.TelaNotificacaoADM.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacao.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPoliticaPrivacidade.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalEmpresa.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoPrivacidade.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSeguranca.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSobre.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosLicenca.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosUso.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoCurriculo.resources
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.GenerateResource.cache
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CoreCompileInputs.cache
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CopyComplete
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.exe
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.pdb
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.Core.dll
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.WindowsForms.dll
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.WindowsPresentation.dll
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Newtonsoft.Json.dll
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.dll
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.EF6.dll
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.Linq.dll
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\Newtonsoft.Json.xml
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.xml
+V:\Users\Vitor\Desktop\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.dll.config
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe.config
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.pdb
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.dll
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.dll
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.Core.dll
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.WindowsForms.dll
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.WindowsPresentation.dll
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\Newtonsoft.Json.dll
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.dll
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.EF6.dll
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.Linq.dll
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.xml
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.xml
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\Newtonsoft.Json.xml
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.xml
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.dll.config
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csprojAssemblyReference.cache
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaChatEmpresa.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEditarPerfil.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAviso.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAvisoAlternativa.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPerfilEmpresa.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Properties.Resources.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaAvaliacao.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaCandidatos.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracao.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoNotificacao.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaGerenciarNotificacoes.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEvento.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEventosCriados.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalTrabalhador.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaProfissionalEvento.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaInternacional.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarIdiomaEvento.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarQualificacaoEvento.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInteressados.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaLogin.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacaoAberta.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Resources.TelaNotificacaoADM.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacao.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPoliticaPrivacidade.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalEmpresa.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoPrivacidade.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSeguranca.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSobre.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosLicenca.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosUso.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoCurriculo.resources
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.GenerateResource.cache
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CoreCompileInputs.cache
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CopyComplete
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.exe
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.pdb
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoVagas.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe.config
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.pdb
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.Core.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.WindowsForms.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.WindowsPresentation.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Newtonsoft.Json.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.EF6.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.Linq.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Newtonsoft.Json.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.dll.config
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csprojAssemblyReference.cache
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEditarPerfil.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAviso.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAvisoAlternativa.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Properties.Resources.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaAvaliacao.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaCandidatos.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracao.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoNotificacao.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaGerenciarNotificacoes.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEvento.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEventosCriados.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalTrabalhador.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoVagas.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaProfissionalEvento.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarIdiomaEvento.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarQualificacaoEvento.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInteressados.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaLogin.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacaoAberta.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Resources.TelaNotificacaoADM.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacao.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPoliticaPrivacidade.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalEmpresa.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoPrivacidade.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSeguranca.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSobre.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosLicenca.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosUso.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoCurriculo.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.GenerateResource.cache
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CoreCompileInputs.cache
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CopyComplete
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.exe
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.pdb
+V:\Users\Vitor\Desktop\TCC\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoLocalizacao.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoLocalizacao.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInscricoes.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInteresses.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaRecomendacoes.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEditarCurriculo.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaInternacionalTrabalhador.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarIdiomaTrabalhador.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe.config
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.exe
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\Pismire_TCC.pdb
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.dll
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.dll
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.Core.dll
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.WindowsForms.dll
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\GMap.NET.WindowsPresentation.dll
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\Newtonsoft.Json.dll
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.dll
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.EF6.dll
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.Linq.dll
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.xml
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\EntityFramework.SqlServer.xml
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\Newtonsoft.Json.xml
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.xml
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\bin\Debug\System.Data.SQLite.dll.config
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csprojAssemblyReference.cache
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaChatEmpresa.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaChatTrabalhador.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoLocalizacao.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEditarCurriculo.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEditarPerfil.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaExperienciaProfissionalTrabalhador.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInscricoes.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInteresses.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAviso.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAvisoAlternativa.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Properties.Resources.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaAvaliacao.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaCandidatos.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracao.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoNotificacao.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaGerenciarNotificacoes.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEvento.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaEventosCriados.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalTrabalhador.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaRecomendacoes.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoQualificacaoTrabalhador.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoVagas.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaInternacionalTrabalhador.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaProfissionalEvento.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaInternacional.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarIdiomaEvento.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarIdiomaTrabalhador.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarQualificacaoEvento.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaInteressados.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaLogin.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacaoAberta.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.Resources.TelaNotificacaoADM.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaNotificacao.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPoliticaPrivacidade.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaPrincipalEmpresa.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaConfiguracaoPrivacidade.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSeguranca.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaSobre.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosLicenca.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaTermosUso.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoCurriculo.resources
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.GenerateResource.cache
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CoreCompileInputs.cache
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.csproj.CopyComplete
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.exe
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.pdb
+V:\Users\Vitor\Downloads\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoPerfilEmpresa.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizacaoPerfilEmpresa.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarQualificacaoTrabalhador.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaProfissionalTrabalhador.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarTrabalhoVoluntarioTrabalhador.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaVisualizarExperienciaInternacionalEvento.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.SignalR.Core.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Extensions.Options.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Extensions.Primitives.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Buffers.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.ComponentModel.Annotations.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.IO.Pipelines.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Memory.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Numerics.Vectors.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Text.Encodings.Web.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Text.Json.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Threading.Channels.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Threading.Tasks.Extensions.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.ValueTuple.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.SignalR.Core.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Extensions.Options.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\Microsoft.Extensions.Primitives.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Buffers.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.IO.Pipelines.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Memory.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Numerics.Vectors.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Text.Encodings.Web.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Text.Json.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Threading.Channels.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Threading.Tasks.Extensions.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.ValueTuple.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Net.Http.Formatting.dll
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\bin\Debug\System.Net.Http.Formatting.xml
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemEmpresa.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemTrabalhador.resources
+V:\Users\Vitor\Desktop\TCC\Backups\Pismire_TCC\Pismire_TCC\obj\Debug\Pismire_TCC.TelaMensagemAberta.resources
